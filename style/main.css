@@ -1,93 +1,123 @@
 body{
-	background: url("../images/The Anthropomorphic Cabinet.jpg") top / cover no-repeat fixed;
-	color:white
-	margin:0px;
-	
+  background: url("../images/The Anthropomorphic Cabinet.jpg") top / cover no-repeat fixed;
+  color: white;
+  margin: 0px;
+
 }
 
 h1{
-	
-	font-family: 'Adelle W01 Bold', 'Arvo',Constantia, "Lucida Bright";
-	color: white;
-  }
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 
 
-    .navbar-nav a{
-    	color:white;
-    }
 
-    .navbar-nav li > a:hover{
-    	background-color:transparent;
-    	color:white;
-    	border:2px solid white;
-    	border-radius: 15px;
-    }
+header{
+  color: white;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 
-    .navbar-primary ul{
-	background-color: #62433f;
-	margin:0px;
-	position:absolute;
-	top:80px;
-	left:0px;
-	width: 100%;
-       }
-
-        .navbar-primary ul li{
-	display:inline-block;
-	padding:5px 10px 5px 10px;
-       }
-
-       
 .banner{
-	width:20%;
-	height: 10%
+  width: 20%;
+  height: 10%;
+}
+
+.quote{
+  width: 35%;
 }
 
 .center-in-container{
-	margin-left:auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.navbar-nav a{
+  color: white;
 }
 
 
-.quote{
-	width:35%;
+.navbar-nav li > a:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
 }
 
 
+section{
+  margin-top: 120px;
+}
 
 figure{
-	border: 5px double #62433f;
-	background-color: #98644e;
-	padding: 5px;
-	display: table;
+  border: 5px double #62433f;
+  background-color: #98644e;
+  padding: 5px;
+  display: table;
+
+}
+
+.showcase img{
+  width: 100%;
+}
+
+.table-hover tbody tr:hover{
+   color: black;
+ }
+
+.thumbnails img{
+  width: 150px;
+  height: 100px;
+}
+
+ caption{
+   color:white;
+   font-size: 1.5em;
+ }
+
+
+footer{
+  background-color: #62433f;
+  padding: 10px;
+}
+
+/* Form classes */
+.checkout-form{
+  width: 500px;
+  margin:  10% auto;
+}
+
+.checkout-form legend{
+  color:white;
+  text-align: center;
 }
 
 
-footer {
-	background-color: #62433f;
-	padding:10px;
-	color: white;
-       }
+.checkout-form button{
+  border-color: white;
+  background-color: #62433f;
+}
 
-      
-       section{
-       	margin-top: 120px;
-       }
 
-       .showcase img{
-       	width:100%;
-       }
+.checkout-form button:hover{
+  background-color: #98644e;
+  border-color:#98644e;
+}
 
-        caption, th ,tbody ,tfoot{
-        	 color:white;
-        	 font-size:  1.5em;
-        }
-      
-       .table-hover>tbody>tr:hover{
-       	    color:black;
-       }
+.input-group{
+  margin: 1em;
+}
 
-       .thumbnails img{
-       	width:150px;
-       	height:100px;
-       }
+.input-group-addon{
+  min-width:5em;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.no-top-margin{
+  margin-top:0;
+}
